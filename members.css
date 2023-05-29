@@ -1,0 +1,291 @@
+*{
+    margin: 1;
+    padding: 1;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,40,0.7)),url(Images/SOBS.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #04739F;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 70px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn .fa{
+    margin: 0 13px;
+    font-size: 18px;
+}
+
+.hero-btn:hover{
+    border: 1px solid #fff;
+    background: rgba(56, 191, 248, 0.669);
+    transition: 1s;
+}
+
+nav .fa{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 30px;
+    }
+    .text-box p{
+        margin: 8px 0 20px;
+        font-size: 18px;
+        color: #fff;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #04739ff4;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -220px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+
+/*--------Call for Data--------*/
+
+
+/*--------- Research -----------*/
+
+
+/*----------members-----------*/
+
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.chris-row{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chris{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.chris{
+    font-size: 30px;
+}
+.chris-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.chris-col img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.chris-col p{
+    padding: 0;
+    font-size: 12px;
+}
+
+
+
+.postdocs{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding:10px;
+}
+.postdocs h1{
+    font-size: 44px;
+}
+
+.postdocs-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.postdocs-col img{
+    width: 90%;
+    border-radius: 10px;
+}
+.postdocs-col p{
+    padding: 0;
+    font-size: 12px;
+}
+.postdocs-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.members{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding:10px;
+}
+.members h1{
+    font-size: 44px;
+}
+
+.members-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.members-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.members-col p{
+    padding: 0;
+    font-size: 12px;
+}
+.members-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: center;
+    cursor: pointer;
+}
+.hero-btn2 .fa{
+    margin: 0 13px;
+    font-size: 18px;
+}
+
+.hero-btn2:hover{
+    border: 2px solid #000000;
+    background: #38bdf8;
+    transition: 1s;
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .chris-row{
+        flex-direction: column;
+    }
+}
+
+/*------------Publications--------------*/
+
+
+
+/*-----------footer---------*/
+
+/*.footer{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+.footer h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.icon .fa{
+    color: #5596ff;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 0px 0;
+    font-size: 40px;
+}*/
