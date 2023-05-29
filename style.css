@@ -39,7 +39,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #5596ff;
+    background: #04739F;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -82,7 +82,7 @@ nav img{
 
 .hero-btn:hover{
     border: 1px solid #fff;
-    background: #5596ffaa;
+    background: #04739F;
     transition: 1s;
 }
 
@@ -104,7 +104,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background: #5596ff;
+        background: #04739ff4;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -133,12 +133,16 @@ nav .fa{
     text-align: center;
     padding-top: 100px;
 }
+.CALL h3{
+    color: #F5F5F7;
+    font-size: 24px;
+}
 h1{
     font-size: 40px;
     font-weight: 600;
 }
 p{
-    color: #777;
+    color: #F5F5F7;
     font-size: 20px;
     font-weight: 300;
     line-height: 22px;
@@ -153,7 +157,7 @@ p{
 
 .CALL-col{
     flex-basis: 31%;
-    background: #eef4ff;
+    background: #04739fb8;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -168,11 +172,11 @@ h3{
 }
 
 .CALL-col:hover{
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
 }
 
 .CALL-col .fa{
-    color: #5596ff;
+    color: #f4fcff;
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -213,7 +217,7 @@ h3{
     transition: 0.5s;
 }
 .layer:hover{
-    background: linear-gradient(#254984d1, #5596ffd1);
+    background: #04739fd0;
 }
 .layer h3{
     width: 100%;
@@ -285,6 +289,7 @@ h3{
 .members-col p{
     padding: 0;
     font-size: 12px;
+    color: #000000;
 }
 .members-col h3{
     margin-top: 16px;
@@ -310,7 +315,7 @@ h3{
 
 .hero-btn2:hover{
     border: 2px solid #000000;
-    background: #5596ffaa;
+    background: #04739fb6;
     transition: 1s;
 }
 
@@ -328,7 +333,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #214a9a8f;
+    background: #04739F;
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -352,7 +357,7 @@ h3{
     color: #fff;
 }
 .publications-col .fa{
-    color: #5596ff;
+    color: #f0f9ff;
 }
 
 .publications-col:hover{
@@ -385,7 +390,7 @@ h3{
 
 .tl-textbox{
     padding: 10px 20px;
-    background: #eef4ff;
+    background: #04739f94;
     position: relative;
     border-radius: 6px;
     font-size: 15px;
@@ -419,7 +424,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.36)),url(Images/GroupCrop.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.36)),url(images/GroupCrop.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
